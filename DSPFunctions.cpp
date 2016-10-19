@@ -186,12 +186,11 @@ double round_to_digits(double value, int digits)
     return round(value*factor) / factor;
 }
 
-//-- Equivalent to what IRL is using for Taylor Window (Ken Yew)
+
 void Common_TaylorWin(float *wt, int len)
 {
     /******************************
         Constant Parameters -
-        Please ask Ken Yew if u want to change (quit liao)
      ******************************/
     int n = 5;
     double SLL = -35.0;
