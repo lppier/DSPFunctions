@@ -15,6 +15,20 @@
 #include <memory>
 #include "ipp.h"
 
+struct xyz
+{
+    double x;
+    double y;
+    double z;
+} typedef xyz;
+
+struct lla
+{
+    double lat;
+    double lon;
+    double alt;
+} typedef lla;
+
 template<typename T>
 std::vector<std::size_t> sort_indexes(const std::vector<T> &v, bool ascending);
 

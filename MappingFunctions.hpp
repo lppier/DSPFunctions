@@ -5,6 +5,8 @@
 #ifndef DSPFUNCTIONS_MAPPINGFUNCTIONS_H
 #define DSPFUNCTIONS_MAPPINGFUNCTIONS_H
 
+#include "DSPFunctions.hpp"
+
 typedef struct double3
 {
     double x;
